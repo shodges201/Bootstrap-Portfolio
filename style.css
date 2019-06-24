@@ -1,5 +1,11 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
 body{
     background: #dddddd;
+    margin-bottom: 100px;
 }
 
 .navHeader{
@@ -56,16 +62,23 @@ body{
     background-image: url("images/placeholder_bar.jpg");
 }
 
-/* @media only screen and (max-width: 760px){
-    .background{
-        height: 400px;
-        width: 90vw;
-    }
-
+.footer {
+    background-color: gray;
+    color: #dddddd;
+    border-top: 8px solid #4aaaa5;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
-@media only screen and (max-width: 640px){
-    .background{
-        height: 90vw;
-    }
-} */
+ .footerText{
+    font-size: 9px;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top:20px;
+ }
+
+ .navPress:hover{
+     color: #4aaaa5;
+ }
