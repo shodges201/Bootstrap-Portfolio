@@ -31,8 +31,6 @@ body{
 
 .images{
     height: 200px;
-    /* width: 275px; */
-    /* margin-top: 30px; */
     background-image: url("images/placeholder_bar.jpg"); 
 }
 
@@ -57,3 +55,17 @@ body{
 .background{
     background-image: url("images/placeholder_bar.jpg");
 }
+
+/* @media only screen and (max-width: 760px){
+    .background{
+        height: 400px;
+        width: 90vw;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+    .background{
+        height: 90vw;
+    }
+} */
